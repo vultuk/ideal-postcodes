@@ -3,7 +3,7 @@
     "description": "Ideal Postcodes API Integration for Composer",
     "require": {
 	"php": ">=5.5.0",
-        "phpunit/phpunit": "~4.8@dev"
+        "phpspec/phpspec": "~2.2@dev"
     },
     "license": "MIT",
     "authors": [
