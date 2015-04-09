@@ -1,0 +1,16 @@
+{
+    "name": "vultuk/ideal-postcodes",
+    "description": "Ideal Postcodes API Integration for Composer",
+    "require": {
+	"php": ">=5.5.0",
+        "phpunit/phpunit": "~4.8@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simon Skinner",
+            "email": "mail@vultuk.net"
+        }
+    ],
+    "minimum-stability": "dev"
+}
