@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9a097143340ac82259591312da02fa8f",
+    "hash": "d2bdb31a84a071d96f12530f3969898a",
     "packages": [
         {
             "name": "doctrine/instantiator",
@@ -519,17 +519,17 @@
         },
         {
             "name": "symfony/console",
-            "version": "2.7.x-dev",
+            "version": "2.8.x-dev",
             "target-dir": "Symfony/Component/Console",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "252cd2fe99e7190eb919e8147464e069b1cba659"
+                "reference": "32f19477d488649a77227d57a7f5775b17cb336b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/252cd2fe99e7190eb919e8147464e069b1cba659",
-                "reference": "252cd2fe99e7190eb919e8147464e069b1cba659",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/32f19477d488649a77227d57a7f5775b17cb336b",
+                "reference": "32f19477d488649a77227d57a7f5775b17cb336b",
                 "shasum": ""
             },
             "require": {
@@ -549,7 +549,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.7-dev"
+                    "dev-master": "2.8-dev"
                 }
             },
             "autoload": {
@@ -573,21 +573,21 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2015-04-08 05:37:48"
+            "time": "2015-04-11 08:55:16"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "2.7.x-dev",
+            "version": "2.8.x-dev",
             "target-dir": "Symfony/Component/EventDispatcher",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher.git",
-                "reference": "186349c2966529804e38685f671e64746dde220b"
+                "reference": "15bbd5beed94cca89ffcce18fb76eeac38937240"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/186349c2966529804e38685f671e64746dde220b",
-                "reference": "186349c2966529804e38685f671e64746dde220b",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/15bbd5beed94cca89ffcce18fb76eeac38937240",
+                "reference": "15bbd5beed94cca89ffcce18fb76eeac38937240",
                 "shasum": ""
             },
             "require": {
@@ -608,7 +608,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.7-dev"
+                    "dev-master": "2.8-dev"
                 }
             },
             "autoload": {
@@ -632,21 +632,21 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "http://symfony.com",
-            "time": "2015-03-13 17:50:01"
+            "time": "2015-04-10 08:56:33"
         },
         {
             "name": "symfony/finder",
-            "version": "2.7.x-dev",
+            "version": "2.8.x-dev",
             "target-dir": "Symfony/Component/Finder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "492de776d92afc774f78cb3d47635b5da6ad2507"
+                "reference": "ad159e0da47e9ffe719bafdc004159ad6e395567"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/492de776d92afc774f78cb3d47635b5da6ad2507",
-                "reference": "492de776d92afc774f78cb3d47635b5da6ad2507",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/ad159e0da47e9ffe719bafdc004159ad6e395567",
+                "reference": "ad159e0da47e9ffe719bafdc004159ad6e395567",
                 "shasum": ""
             },
             "require": {
@@ -658,7 +658,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.7-dev"
+                    "dev-master": "2.8-dev"
                 }
             },
             "autoload": {
@@ -682,21 +682,21 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
-            "time": "2015-03-30 15:55:07"
+            "time": "2015-04-10 08:56:33"
         },
         {
             "name": "symfony/process",
-            "version": "2.7.x-dev",
+            "version": "2.8.x-dev",
             "target-dir": "Symfony/Component/Process",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Process.git",
-                "reference": "6028c8268fa2afe7e500f9652709270607b535a1"
+                "reference": "5c73c03223e922c3c5f2c4128984e82a44089bbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Process/zipball/6028c8268fa2afe7e500f9652709270607b535a1",
-                "reference": "6028c8268fa2afe7e500f9652709270607b535a1",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/5c73c03223e922c3c5f2c4128984e82a44089bbc",
+                "reference": "5c73c03223e922c3c5f2c4128984e82a44089bbc",
                 "shasum": ""
             },
             "require": {
@@ -708,7 +708,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.7-dev"
+                    "dev-master": "2.8-dev"
                 }
             },
             "autoload": {
@@ -732,21 +732,21 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "http://symfony.com",
-            "time": "2015-03-30 15:55:07"
+            "time": "2015-04-10 08:56:33"
         },
         {
             "name": "symfony/yaml",
-            "version": "2.7.x-dev",
+            "version": "2.8.x-dev",
             "target-dir": "Symfony/Component/Yaml",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml.git",
-                "reference": "3882af2f22672e347030b561cc6c5abc2b335566"
+                "reference": "fdded56dde4ca9efce6322887bf5eaa7bb0aae3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/3882af2f22672e347030b561cc6c5abc2b335566",
-                "reference": "3882af2f22672e347030b561cc6c5abc2b335566",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/fdded56dde4ca9efce6322887bf5eaa7bb0aae3e",
+                "reference": "fdded56dde4ca9efce6322887bf5eaa7bb0aae3e",
                 "shasum": ""
             },
             "require": {
@@ -758,7 +758,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.7-dev"
+                    "dev-master": "2.8-dev"
                 }
             },
             "autoload": {
@@ -782,15 +782,13 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
-            "time": "2015-03-30 15:55:07"
+            "time": "2015-04-10 08:56:33"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "phpspec/phpspec": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

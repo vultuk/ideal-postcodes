@@ -9,7 +9,7 @@ class LookupPostcode
 
     private $endpoint = "https://api.ideal-postcodes.co.uk";
     private $apiVersion = "v1";
-    private $apiKey = "";
+    private $apiKey = "ak_i10esdz6iOfFQ6vfFAyDhxzvaEM4V";
 
     public function __construct($givenPostcode = null)
     {
