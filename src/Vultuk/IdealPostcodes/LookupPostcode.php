@@ -7,13 +7,16 @@ class LookupPostcode
 
     private $givenPostcode = null;
 
+    private $asArray = false;
+
     private $endpoint = "https://api.ideal-postcodes.co.uk";
     private $apiVersion = "v1";
     private $apiKey = "ak_i10esdz6iOfFQ6vfFAyDhxzvaEM4V";
 
-    public function __construct($givenPostcode = null)
+    public function __construct($givenPostcode = null, $asArray = false)
     {
         $this->givenPostcode = FormatPostcode::format($givenPostcode);
+        $this->asArray = $asArray;
 
         return $this;
     }
@@ -28,11 +31,17 @@ class LookupPostcode
             ) . '?api_key=' . $this->apiKey
         ), true);
 
-        return new Postcode((array)$liveLookup['result']);
+        $postcodeDetails = new Postcode((array)$liveLookup['result']);
+
+        return $this->asArray ? json_decode(json_encode($postcodeDetails), true) : $postcodeDetails;
 
     }
 
 
-
+    public static function lookup($postcode, $asArray = false)
+    {
+        $repository = new Self($postcode, $asArray);
+        return $repository->lookupPostcode();
+    }
 
 }
